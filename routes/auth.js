@@ -45,12 +45,7 @@ router.post(
         });
       })
       .normalizeEmail(),
-    body(
-      'password',
-      'Please enter a password with only numbers and text and at least 5 characters.'
-    )
-      .isLength({ min: 5 })
-      .isAlphanumeric()
+      body('password', 'Enter a password with numbers and text with at least 5 characters').isLength({min: 5}).isAlphanumeric()
       .trim(),
     body('confirmPassword')
       .trim()

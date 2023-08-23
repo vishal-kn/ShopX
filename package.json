@@ -1,7 +1,7 @@
 {
   "name": "nodejs-complete-guide",
   "version": "1.0.0",
-  "description": "ECommerce",
+  "description": "Ecommerce",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -32,6 +32,7 @@
     "nodemailer-sendgrid-transport": "^0.2.0",
     "pdfkit": "^0.8.3",
     "pug": "^2.0.3",
-    "sequelize": "^5.0.0-beta.11"
+    "sequelize": "^5.0.0-beta.11",
+    "stripe": "^7.11.0"
   }
 }
